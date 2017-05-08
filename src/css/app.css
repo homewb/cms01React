@@ -1,0 +1,28 @@
+/* =========
+Your custom styles go here
+ ========= */
+
+.demo-card-header-pic .card-header {
+    height: 50vw;
+    background-size: cover;
+    background-position: center;
+
+    padding: 0;
+}
+
+.card-header.image-inner-title-bottom {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+}
+.image-inner-title-bottom p {
+    position: absolute;
+    margin: 0;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.card-description {
+    color: #000000;
+}
