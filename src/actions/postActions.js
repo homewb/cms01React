@@ -1,7 +1,7 @@
 import * as actionTypes from '../constants/actionTypes';
 
-const baseUrl = '';
-const url = baseUrl + '';
+const baseUrl = 'http://www.aocai.com.au/wordpress/wp-json/wp/v2/posts';
+const url = baseUrl + '?filter%5Bcat%5D=384&filter%5Bposts_per_page%5D=10&filter%5Bpaged%5D=1';
 
 export const fetchPostsSuccess = (posts) => {
     return {

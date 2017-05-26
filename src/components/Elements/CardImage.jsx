@@ -10,7 +10,9 @@ const CardImageHeader = (props, context) => {
 		<div 
 			style={{backgroundImage: props.backgroundStyle}} 
 			className="card-header image-inner-title-bottom color-white no-border">
-			<p>{props.title}</p>
+			<div className="cover-title">
+				<p>{props.title}</p>
+			</div>
 		</div>
 	)
 }

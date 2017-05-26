@@ -7,7 +7,7 @@ import {
 } from 'framework7-react';
 
 import {routes} from '../routes';
-import PostsPage from './pages/Posts';
+import PostsPageView from './pages/Posts';
 
 const LeftPanel = (props, context) => (
 	<Panel left reveal layout="dark">
@@ -49,7 +49,7 @@ const MainViews = (props, context) => {
 						<NavLeft>
 							<Link icon="icon-bars" openPanel="left" />
 						</NavLeft>
-						<NavCenter sliding>Framework7</NavCenter>
+						<NavCenter sliding>要闻</NavCenter>
 						<NavRight>
 							
 						</NavRight>
@@ -57,7 +57,7 @@ const MainViews = (props, context) => {
 				) : null}
 				{/* Pages */}
 				<Pages>
-					<PostsPage />
+					<PostsPageView />
 				</Pages>
 			</View>
 		</Views>

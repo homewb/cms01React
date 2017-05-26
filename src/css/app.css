@@ -16,13 +16,50 @@ Your custom styles go here
     -webkit-align-items: flex-end;
     align-items: flex-end;
 }
-.image-inner-title-bottom p {
+.image-inner-title-bottom .cover-title {
     position: absolute;
-    margin: 0;
-    padding: 10px 15px;
-    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.image-inner-title-bottom .cover-title p {
+    padding: 5px 10px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
 }
 
 .card-description {
     color: #000000;
+}
+
+
+/* post page */
+.post-content .content-block {
+    margin-top: 0 !important;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-title {
+    font-weight: 600;
+    color: #333333;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.post-date {
+    padding: 10px 0;
+    margin-bottom: 25px;
+    color: #9e9e9e;
+    border-bottom: 1px solid #9e9e9e;
+    font-size: 15px;
+}
+
+.post-main-image {
+    width: 100%;
+    height: auto;
 }
